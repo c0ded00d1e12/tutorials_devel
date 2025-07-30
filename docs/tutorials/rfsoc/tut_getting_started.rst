@@ -31,8 +31,8 @@ In this case, for RFSoC what you will need is:
 Some help and pointers for general toolflow and software installation can be
 found `here <https://casper-toolflow.readthedocs.io/en/latest/src/Installing-the-Toolflow.html#pre-requisites>`_. It is strongly recommended to use an
 isolated runtime environment of python. This is done with a virtual environment
-using the `\ ``venv`` <https://docs.python.org/3/tutorial/venv.html>`_ python package or some other tool with an
-environment manager such as `\ ``conda`` <https://docs.conda.io/projects/conda/en/latest/index.html>`_. The following assumes an
+using the `venv <https://docs.python.org/3/tutorial/venv.html>`_ python package or some other tool with an
+environment manager such as `conda <https://docs.conda.io/projects/conda/en/latest/index.html>`_. The following assumes an
 OS and required vendor software has been installed.
 
 Core Setup
