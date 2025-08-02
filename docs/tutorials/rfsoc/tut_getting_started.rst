@@ -24,8 +24,8 @@ In this case, for RFSoC what you will need is:
 * Vivado 2021.1
 * Matlab 2021a (with Simulink)
 * Python 3 environment 
-* Development branches of the CASPER "toolflow" library `\ ``mlib_devel`` <https://gitlab.ras.byu.edu/alpaca/casper/mlib_devel/-/tree/rfsocs/zcu216>`_ and board
-  communication library `\ ``casperfpga`` <https://gitlab.ras.byu.edu/alpaca/casper/casperfpga/-/tree/rfsocs/rfdc>`_ with RFSoC support
+* Development branches of the CASPER "toolflow" library `mlib_devel <https://gitlab.ras.byu.edu/alpaca/casper/mlib_devel/-/tree/rfsocs/zcu216>`_ and board
+  communication library `casperfpga <https://gitlab.ras.byu.edu/alpaca/casper/casperfpga/-/tree/rfsocs/rfdc>`_ with RFSoC support
 * `Xilinx device tree repository <https://github.com/Xilinx/device-tree-xlnx/>`_
 
 Some help and pointers for general toolflow and software installation can be
@@ -63,7 +63,7 @@ Toolflow Setup
    $ cd mlib_devel
    $ git checkout -b m2021a origin/m2021a
 
-   # install pacakge dependencies
+   # install package dependencies
    $ pip install -r requirements.txt
 
    # initialize submodules
